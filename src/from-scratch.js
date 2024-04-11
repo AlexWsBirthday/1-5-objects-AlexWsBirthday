@@ -31,7 +31,8 @@ const listHobbies = (person) => {
 const getNextOpponent = () => {
 };
 
-const listAllKeys = () => {
+const listAllKeys = (obj) => {
+  return Object.keys(obj)
 };
 
 const listAllValues = () => {
