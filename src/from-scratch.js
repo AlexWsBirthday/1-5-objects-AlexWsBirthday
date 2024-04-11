@@ -58,8 +58,9 @@ const coolGreeting = (person) => {
   }
   
   //8.
-  const listAllKeys = () => {
-  };
+  const listAllKeys = (obj) => {
+    return Object.keys(obj)
+};
   
   //9. 
   const listAllValues = (obj) => {
