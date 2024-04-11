@@ -9,7 +9,13 @@ const haveBirthday = (person) => {
 const becomeSecretAgent = () => {
 };
 
-const carMaker = () => {
+const carMaker = (name, marker, year) => {
+  return {
+    name: name,
+    maker: marker,
+    year: year,
+    needsOilChange: false,
+  }
 };
 
 const weAreNotFriends = () => {
