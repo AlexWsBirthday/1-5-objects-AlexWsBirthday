@@ -40,8 +40,12 @@ const coolGreeting = (person) => {
   
   
   //6.
-  const listHobbies = () => {
-  };
+  const listHobbies = (person) => {
+    const list = person.hobbies
+  for (let activity in list) {
+    console.log(`${person.name} likes ${person.hobbies[activity]}.`)
+  }
+};
   
   //7.
   const getNextOpponent = (team) => {
