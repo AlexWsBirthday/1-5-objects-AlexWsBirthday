@@ -1,3 +1,4 @@
+
 //1.
 const coolGreeting = (person) => {
   if (person.isCool === true){
@@ -9,9 +10,10 @@ const coolGreeting = (person) => {
   
   
   //2.
-  const haveBirthday = () => {
+  const haveBirthday = (person) => {
+    person.age += 1
+    console.log(person)
   };
-  
   
   //3.
   const becomeSecretAgent = (person, spyHandle) => {
@@ -22,7 +24,13 @@ const coolGreeting = (person) => {
   
   
   //4. 
-  const carMaker = () => {
+  const carMaker = (name, marker, year) => {
+    return {
+      name: name,
+      maker: marker,
+      year: year,
+      needsOilChange: false,
+    }
   };
   
   //5.
@@ -70,4 +78,3 @@ const coolGreeting = (person) => {
     listAllValues,
     convertToMatrix,
   };
-  
