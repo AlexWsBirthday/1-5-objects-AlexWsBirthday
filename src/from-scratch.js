@@ -1,7 +1,9 @@
 const coolGreeting = () => {
 };
 
-const haveBirthday = () => {
+const haveBirthday = (person) => {
+  person.age += 1
+  console.log(person)
 };
 
 const becomeSecretAgent = () => {
